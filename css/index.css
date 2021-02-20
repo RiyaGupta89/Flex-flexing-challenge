@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    padding: 0.5em;
+}
+
+.wrapper > div {
+    background-color: rgb(219, 150, 150);
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-size: 2rem;
+}
+.wrapper1 div,
+.wrapper2 div {
+    background-color: rgb(219, 150, 150);
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.wrapper1 {
+    display: flex;
+    padding: 0 0.5em;
+}
+
+.wrapper2 {
+    display: flex;
+    padding: 0.5em;
+}
+
+.three,
+.four,
+.five {
+    display: flex;
+    margin-top: 0.2em;
+}
+
+.three > div,
+.four > div,
+.five > div {
+    background-color: #fff;
+    color: rgb(219, 150, 150);
+    width: 100%;
+    margin-left: 0.2em;
+    border-radius: 5px;
+}
+
+.last {
+    margin-right: 0.2em;
+}
+
+.box-2,
+.box-3,
+.second,
+.third,
+.fourth,
+.fifth {
+    margin-left: 0.2em;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    padding: 0.2em;
+}
